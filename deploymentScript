@@ -4,7 +4,7 @@
 ng build --base-href "https://Zaqttack.github.io/test-angular-app"
 
 # copying over some files and creating the gitHub pages CNAME
-cd dist/test-app && cp index.html 404.html && echo "http://test.zaquariah.dev" > CNAME
+cd dist/test-app && cp index.html 404.html && echo "test.zaquariah.dev" > CNAME
 
 # returning back to the src folder and deploying the built app
 cd ../..
