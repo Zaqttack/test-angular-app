@@ -1,6 +1,6 @@
 {
   "name": "test-app",
-  "homepage": "https://test.zaquariah.dev",
+  "homepage": "http://test.zaquariah.dev",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
