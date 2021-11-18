@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# creating the new build
+ng build --base-href "https://Zaqttack.github.io/test-angular-app" --cname="test.zaquariah.dev"
+
+# copying over some files and creating the gitHub pages CNAME
+cd dist/test-app && cp index.html 404.html
+
+# returning back to the src folder and deploying the built app
+cd ../..
+npx angular-cli-ghpages --dir=dist/test-app
